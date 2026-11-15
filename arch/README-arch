@@ -1,0 +1,12 @@
+ARCHITECTURE DIRECTORY (tam-mail)
+
+This folder is for architecture notes. It documents the architectural
+patterns, data structures, and algorithms of the reference implementations
+tracked in ideas/, as well as how tam-mail plans to implement or adapt
+them under the Tamlinux philosophy (pure C11, minimal dependencies,
+libtam-only linkage, and first-class Linux virtual console support).
+
+Contents:
+
+- aerc.md : Architectural mechanisms documented for aerc (ideas/aerc.md)
+            and tam-mail's planned C11/libtam data structures & algorithms.
