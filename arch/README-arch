@@ -1,12 +1,38 @@
-ARCHITECTURE DIRECTORY (tam-mail)
+ARCHITECTURE
 
-This folder is for architecture notes. It documents the architectural
-patterns, data structures, and algorithms of the reference implementations
-tracked in ideas/, as well as how tam-mail plans to implement or adapt
-them under the Tamlinux philosophy (pure C11, minimal dependencies,
-libtam-only linkage, and first-class Linux virtual console support).
+This folder documents the system architecture of this repository's
+project: the modules and how they connect, the data structures, the
+algorithms, the dependencies, and the evaluations of other projects that
+shaped them.
 
-Contents:
 
-- aerc.md : Architectural mechanisms documented for aerc (ideas/aerc.md)
-            and tam-mail's planned C11/libtam data structures & algorithms.
+WHAT GOES HERE
+
+  principles.md        the design rules every change follows
+  data-structures.md   the main structures, as they are built today
+  dependencies.md      every library the project uses, why, and which
+                       version removes it
+  <name>-evaluation.md how another project works; what to take from it
+                       and what not to repeat
+
+  A project without code yet starts with principles.md. Later phases add
+  their own files; each plan says which.
+
+
+KEEPING IT TRUE
+
+  These documents describe the code as it is. A change that alters a
+  structure, an algorithm or a dependency updates the matching file in
+  the same commit. Where code and document disagree, the code is right
+  and the document is a bug.
+
+
+IN THIS REPOSITORY
+
+  aerc.md   how aerc works (see ideas/aerc.md), and the C11 and libtam
+            data structures and algorithms tam-mail plans in its place
+
+  Everything here follows the Tamlinux philosophy: pure C11, minimal
+  dependencies, libtam-only linkage, and first-class Linux virtual
+  console support. principles.md, data-structures.md and
+  dependencies.md come with the first code (P1).

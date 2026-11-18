@@ -1,0 +1,44 @@
+WHATNOW
+
+What tam-mail is doing now and what comes next. Read this first; revise
+it at the end of every session (work/README-work).
+
+Updated: 2026-11-18, with W1
+
+
+STATE
+
+  Version 0.0.0 on branch dev: planning only, no code. README and
+  ROADMAP.md describe a pure C11 terminal mail client on libtam,
+  inspired by aerc; ideas/aerc.md and arch/aerc.md hold what was
+  learned from aerc. The repository follows the tam-idol 0.1.0 standard
+  (W1).
+
+
+NEXT
+
+  1. Write plans/P1-foundation.md from ROADMAP.md's Phase 0 (0.1.0):
+     the Makefile with strict C11 flags and make test under ASan and
+     UBSan, the INI configuration loader (tam_ini, tam_xdg_path), and
+     the multi-pane screen on tam_tty, tam_key and tam_uni. Follow
+     plans/README-plans for what a plan holds; list its open points for
+     Fred. Done when Fred has read it.
+  2. Then the 0.1.0 skeleton: Makefile, src/, tests/, with
+     tam-mail --version printing VERSION. Bump VERSION in the first
+     code commit.
+  3. Before acting on aerc ideas in code, run tools/pull-references to
+     clone aerc and check the notes against its source.
+
+
+WAITING FOR FRED
+
+  - Nothing.
+
+
+WATCH OUT
+
+  - ROADMAP.md numbers its phases from 0 (Phase 0 is 0.1.0); plans
+    count from P1, so P1 is Phase 0.
+  - Agents never read, write or set up access to Fred's own mail.
+    Test with made-up Maildir stores under tests/.
+  - Every code change bumps VERSION in the same commit.

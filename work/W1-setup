@@ -1,0 +1,43 @@
+W1 FINISHING THE REPOSITORY SETUP TO THE TAM-IDOL STANDARD
+
+Date: 2026-11-18
+AI harness: Claude Code 2.1.327
+AI model: claude-opus-5-5
+Commits: the commit that adds this record
+
+
+GUIDANCE
+
+  Fred: "Finish setting up the tam-mail repo with the same work folder
+  and other process folders as tam-clam and tam-pane."
+
+  The same session created tam-idol, the exemplar repository, and
+  brought tam-mail up to its standard as the first repository to
+  follow it.
+
+
+DONE
+
+  - work/ added: README-work, WHATNOW and this record.
+  - reviews/README-reviews added.
+  - arch/, bugs/, ideas/ and plans/ README files replaced with the
+    tam-idol text; tam-mail's own notes moved into each IN THIS
+    REPOSITORY section.
+  - ideas/sources lists aerc; tools/pull-references added. aerc is not
+    cloned yet.
+  - VERSION 0.0.0, AI-BLAME.md and UPSTREAM.md added.
+  - COPYRIGHT named tam-data; it now names tam-mail and has the full
+    GPL notice.
+  - README says it follows tam-idol 0.1.0 and has WHERE THINGS ARE.
+  - tam-idol's tools/idol-check passes for tam-mail.
+
+
+FAILED
+
+  - Nothing.
+
+
+HANDOFF
+
+  - Write plans/P1-foundation.md from ROADMAP Phase 0, then the 0.1.0
+    skeleton. Details in work/WHATNOW.
