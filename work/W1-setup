@@ -12,7 +12,7 @@ GUIDANCE
   and other process folders as tam-clam and tam-pane."
 
   The same session created tam-idol, the exemplar repository, and
-  brought tam-mail up to its standard as the first repository to
+  brought tam-clif up to its standard as the first repository to
   follow it.
 
 
@@ -21,15 +21,15 @@ DONE
   - work/ added: README-work, WHATNOW and this record.
   - reviews/README-reviews added.
   - arch/, bugs/, ideas/ and plans/ README files replaced with the
-    tam-idol text; tam-mail's own notes moved into each IN THIS
+    tam-idol text; tam-clif's own notes moved into each IN THIS
     REPOSITORY section.
   - ideas/sources lists aerc; tools/pull-references added. aerc is not
     cloned yet.
   - VERSION 0.0.0, AI-BLAME.md and UPSTREAM.md added.
-  - COPYRIGHT named tam-data; it now names tam-mail and has the full
+  - COPYRIGHT named tam-data; it now names tam-clif and has the full
     GPL notice.
   - README says it follows tam-idol 0.1.0 and has WHERE THINGS ARE.
-  - tam-idol's tools/idol-check passes for tam-mail.
+  - tam-idol's tools/idol-check passes for tam-clif.
 
 
 FAILED

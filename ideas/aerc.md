@@ -55,7 +55,7 @@
 ### 1. Worker / Backend Architecture
 - **aerc:** Implements in-process Go goroutine workers for native IMAP, JMAP,
   SMTP, Notmuch, and Maildir.
-- **tam-mail:** Keeps the core binary strictly `libc` + `libtam.a` by reading
+- **tam-clif:** Keeps the core binary strictly `libc` + `libtam.a` by reading
   local Maildir/Maildir++ stores directly and delegating network sync/send/auth
   via `tam_exec` to `mbsync`/`isync`, `msmtp`/`sendmail`, `tam-ring`, and
   `gpg`.
@@ -63,7 +63,7 @@
 ### 2. Configuration & Templates
 - **aerc:** Uses INI-like `aerc.conf`/`accounts.conf`/`binds.conf` plus Go's
   `text/template`.
-- **tam-mail:** Uses `tam_ini` (`tam-mail.ini`, `accounts.ini`, `binds.ini`)
+- **tam-clif:** Uses `tam_ini` (`tam-clif.ini`, `accounts.ini`, `binds.ini`)
   and a lightweight C template substitution engine (`{{From}}`, `{{Date}}`,
   `{{Subject}}`) for replies/forwards.
 
@@ -72,11 +72,11 @@
 ## Ideas We Avoid
 
 - **Embedded Go Runtime & In-Process TLS/IMAP/JMAP Stack:** Embedding full
-  network protocols and TLS inside the TUI binary violates `tam-mail`'s
+  network protocols and TLS inside the TUI binary violates `tam-clif`'s
   `libc` + `libtam`-only constraint and duplicates what `mbsync`/`msmtp`
   already do well.
 - **Embedded Terminal Emulator (`term`):** `aerc` embeds a full PTY terminal
-  emulator for running `$EDITOR` and shells inside tabs. In `tam-mail`,
+  emulator for running `$EDITOR` and shells inside tabs. In `tam-clif`,
   suspending `tam_tty` raw mode to run `$EDITOR` (e.g., `tam-edit`) cleanly
   and restoring on exit is far simpler, smaller, and works identically on
   `TERM=linux`.

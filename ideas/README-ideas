@@ -55,7 +55,7 @@ IN THIS REPOSITORY
   against the Tamlinux philosophy: pure C11, minimal dependencies,
   libtam-only linkage, and first-class Linux virtual console support.
 
-    aerc.md   aerc, the terminal mail client tam-mail starts from
+    aerc.md   aerc, the terminal mail client tam-clif starts from
 
   sources lists aerc; nothing is cloned until someone runs
   tools/pull-references.

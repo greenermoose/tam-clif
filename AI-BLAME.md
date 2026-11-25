@@ -1,6 +1,6 @@
 # AI blame
 
-This file says how tam-mail records which AI did what: which harness and
+This file says how tam-clif records which AI did what: which harness and
 model did each piece of work, what it was asked, and which commits came
 of it. The repository follows the
 [Tamlinux AI blame standard](https://github.com/greenermoose/tamlinux/blob/main/work/ai-blame-standard.md).

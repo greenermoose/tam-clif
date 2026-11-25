@@ -1,9 +1,9 @@
 WHATNOW
 
-What tam-mail is doing now and what comes next. Read this first; revise
+What tam-clif is doing now and what comes next. Read this first; revise
 it at the end of every session (work/README-work).
 
-Updated: 2026-11-18, with W1
+Updated: 2026-11-25, with W2
 
 
 STATE
@@ -12,7 +12,8 @@ STATE
   ROADMAP.md describe a pure C11 terminal mail client on libtam,
   inspired by aerc; ideas/aerc.md and arch/aerc.md hold what was
   learned from aerc. The repository follows the tam-idol 0.2.0 standard
-  (W1).
+  (W1). The repository and remote were renamed from tam-mail to
+  tam-clif on 2026-11-25 (W2); docs use the new name and config paths.
 
 
 NEXT
@@ -24,7 +25,7 @@ NEXT
      plans/README-plans for what a plan holds; list its open points for
      Fred. Done when Fred has read it.
   2. Then the 0.1.0 skeleton: Makefile, src/, tests/, with
-     tam-mail --version printing VERSION. Bump VERSION in the first
+     tam-clif --version printing VERSION. Bump VERSION in the first
      code commit.
   3. Before acting on aerc ideas in code, run tools/pull-references to
      clone aerc and check the notes against its source.

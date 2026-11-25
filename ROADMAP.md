@@ -1,6 +1,6 @@
-# tam-mail Roadmap
+# tam-clif Roadmap
 
-This document outlines the architectural plan and phased roadmap for `tam-mail`:
+This document outlines the architectural plan and phased roadmap for `tam-clif`:
 a pure-C11, terminal e-mail client built on [`libtam`](https://github.com/greenermoose/libtam)
 and designed to run natively on any Tamlinux system—including bare Linux virtual
 consoles (`TERM=linux`).
@@ -32,7 +32,7 @@ consoles (`TERM=linux`).
 
 ## Release Versioning Plan
 
-`tam-mail` follows [Semantic Versioning (SemVer 2.0.0)](https://semver.org/):
+`tam-clif` follows [Semantic Versioning (SemVer 2.0.0)](https://semver.org/):
 
 | Version | Phase | Milestone Scope | Status |
 | :--- | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ and flicker-free terminal layout engine.
 
 - `Makefile` with strict C11 flags (`-std=c11 -Wall -Wextra -Werror`) and
   `make test` under ASan/UBSan.
-- Config loader using `tam_ini` and `tam_xdg_path` (`tam-mail.ini`,
+- Config loader using `tam_ini` and `tam_xdg_path` (`tam-clif.ini`,
   `accounts.ini`, `binds.ini`).
 - Multi-pane screen compositor built on `tam_tty`, `tam_key`, and `tam_uni`:
   top tab bar (accounts), left folder list, main message list/viewer pane, and
@@ -101,7 +101,7 @@ and flicker-free terminal layout engine.
 
 - Compose new (`C`), reply (`r`), reply-all (`R`), forward (`f`), and edit draft.
 - Lightweight template substitution (`{{From}}`, `{{Date}}`, `{{Subject}}`,
-  quoted body) in `tam-mail` without heavy template engines.
+  quoted body) in `tam-clif` without heavy template engines.
 - Handoff to `$EDITOR` (suspending `tam_tty` raw mode cleanly and restoring on
   exit), attachment picker, and Drafts Maildir persistence.
 - Outgoing submission via `tam_exec` (`msmtp`, `sendmail`, or custom command)
@@ -109,7 +109,7 @@ and flicker-free terminal layout engine.
 
 ## Phase 5: Async Workers, Ex-Commands & Custom Keybinds (v0.6.0)
 
-**Goal:** Make `tam-mail` responsive under background sync and fully
+**Goal:** Make `tam-clif` responsive under background sync and fully
 scriptable.
 
 - Non-blocking `poll()` event loop integrating `tam_tty` input with child

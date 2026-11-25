@@ -1,0 +1,34 @@
+W2 RENAME TO TAM-CLIF
+
+Date: 2026-11-25
+AI harness: opencode 2.2.5
+AI model: big-pickle
+
+GUIDANCE
+
+  Fred: "Rename the tam-mail repo to be tam-clif. I need both the local
+         and remote renamed. I don't care about breaking links. This is
+         a dev repo so no one needs the old name."
+  Fred: "Rename everything. Replace tam-mail with tam-clif in the repo's
+         docs and update references in other repos. Requires commits in
+         multiple repos."
+  Fred: "Leave quotes intact (Recommended)".
+  Fred: "The name is tam-clif NOT tam-clf. Note the difference."
+  Fred: "Make it so."
+
+DONE
+
+  - Renamed the GitHub repo and local checkout from tam-mail to
+    tam-clif; origin now uses git@github.com:greenermoose/tam-clif.git.
+  - Replaced the project name and planned config paths in the docs and
+    work notes, except for verbatim earlier prompts.
+  - Verified git status, the remote URL and git ls-remote against GitHub.
+
+FAILED
+
+  - An early edit used the typo tam-clf; corrected to tam-clif before
+    the commits.
+
+HANDOFF
+
+  - Continue 0.1.0 planning from ROADMAP.md and WHATNOW.

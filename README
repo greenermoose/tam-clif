@@ -1,9 +1,9 @@
-TAM-MAIL -- TERMINAL E-MAIL CLIENT
+TAM-CLIF -- TERMINAL E-MAIL CLIENT
 
-tam-mail is a terminal e-mail client (MUA) written in C11, depending only
+tam-clif is a terminal e-mail client (MUA) written in C11, depending only
 on the standard C libraries (POSIX libc) and libtam
 (https://github.com/greenermoose/libtam). Inspired by aerc
-(https://git.sr.ht/~rjarry/aerc), tam-mail brings asynchronous,
+(https://git.sr.ht/~rjarry/aerc), tam-clif brings asynchronous,
 keyboard-driven, multi-account email reading and composition to Tamlinux
 with sub-megabyte memory overhead and first-class Linux virtual console
 (TERM=linux) support.
@@ -25,7 +25,7 @@ DESIGN PHILOSOPHY
 
 - Compose with Unix Mail Tools:
   Rather than embedding a full TLS/IMAP/SMTP stack in the TUI binary,
-  tam-mail reads local Maildir/Maildir++ stores directly and delegates
+  tam-clif reads local Maildir/Maildir++ stores directly and delegates
   network sync, sending, OAuth2, and MIME filtering via tam_exec to
   focused system tools (such as mbsync/isync, msmtp, sendmail, tam-ring,
   gpg, and w3m).
@@ -74,9 +74,9 @@ PLANNED CONFIGURATION & PATHS
 
 Configuration and state follow XDG conventions via tam_xdg_path:
 
-  $XDG_CONFIG_HOME/tamlinux/tam-mail/tam-mail.ini   UI, threading, [filters]
-  $XDG_CONFIG_HOME/tamlinux/tam-mail/accounts.ini   Account definitions
-  $XDG_CONFIG_HOME/tamlinux/tam-mail/binds.ini      Context keybindings
+  $XDG_CONFIG_HOME/tamlinux/tam-clif/tam-clif.ini   UI, threading, [filters]
+  $XDG_CONFIG_HOME/tamlinux/tam-clif/accounts.ini   Account definitions
+  $XDG_CONFIG_HOME/tamlinux/tam-clif/binds.ini      Context keybindings
 
 
 BUILD PREREQUISITES (PLANNED)
@@ -98,7 +98,7 @@ WHERE THINGS ARE
   reviews/         one record per review (R1, R2, ...)
   work/            WHATNOW (read it first: what is next) and one record
                    per work session (W1, W2, ...)
-  tools/           helper scripts for developing tam-mail
+  tools/           helper scripts for developing tam-clif
   ROADMAP.md       milestones with their version numbers
   UPSTREAM.md      every piece of code we took from another project
   AI-BLAME.md      how AI work is recorded here
@@ -108,5 +108,5 @@ WHERE THINGS ARE
 
 LICENSE
 
-  tam-mail is free software under the GNU General Public License,
+  tam-clif is free software under the GNU General Public License,
   version 3 or later. See COPYRIGHT.

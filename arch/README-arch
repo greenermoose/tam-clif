@@ -30,7 +30,7 @@ KEEPING IT TRUE
 IN THIS REPOSITORY
 
   aerc.md   how aerc works (see ideas/aerc.md), and the C11 and libtam
-            data structures and algorithms tam-mail plans in its place
+            data structures and algorithms tam-clif plans in its place
 
   Everything here follows the Tamlinux philosophy: pure C11, minimal
   dependencies, libtam-only linkage, and first-class Linux virtual
