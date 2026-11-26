@@ -1,0 +1,32 @@
+W4 FIRST-DRAFT KEYBINDINGS IN KEYS/
+
+Date: 2026-11-25
+AI harness: agy 1.5.17
+AI model: Gemini 4 Hydrogen (Medium)
+Commits: the commit that adds this record
+
+GUIDANCE
+
+  Fred: "Add a keys/ folder to the tam-clif repo and in it put a first
+  draft of the keybindings for using tam-clif."
+
+DONE
+
+  - Added keys/README-keys and keys/keybindings.md with a first draft
+    of tam-clif's keybindings across [default], [messages], [view],
+    [compose], and prompt/ex-command contexts, following the Tamlinux
+    keybinding standard (tam-idol/keys/keybindings.md).
+  - Documented intentional departures from aerc (Ctrl+U, Ctrl+D,
+    Ctrl+J, Ctrl+K) to preserve the universal Tamlinux Ctrl map and
+    TERM=linux parity.
+  - Listed keys/ in README under WHERE THINGS ARE.
+  - Verified with tam-idol/tools/idol-check.
+
+FAILED
+
+  - Nothing.
+
+HANDOFF
+
+  - Review keys/keybindings.md with Fred if adjustments are needed, then
+    proceed to plans/P1-foundation.md (details in work/WHATNOW).

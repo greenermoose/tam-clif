@@ -93,6 +93,7 @@ WHERE THINGS ARE
   ideas/           ideas from other mail clients (aerc first)
   arch/            architecture: data structures, algorithms,
                    evaluations
+  keys/            keybinding specification (tam-idol standard)
   plans/           one plan per work phase (P1, P2, ...)
   bugs/            one record per bug (B1, B2, ...)
   reviews/         one record per review (R1, R2, ...)

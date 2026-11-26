@@ -1,0 +1,8 @@
+KEYBINDINGS
+
+This folder holds the keybinding specification for tam-clif, following
+the Tamlinux keybinding standard (tam-idol/keys/keybindings.md).
+
+IN THIS REPOSITORY
+
+  keybindings.md   first-draft keybindings for tam-clif across all contexts

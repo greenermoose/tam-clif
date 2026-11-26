@@ -3,7 +3,7 @@ WHATNOW
 What tam-clif is doing now and what comes next. Read this first; revise
 it at the end of every session (work/README-work).
 
-Updated: 2026-11-25, with W3
+Updated: 2026-11-25, with W4
 
 
 STATE
@@ -14,7 +14,7 @@ STATE
   hold what was learned from aerc and omamail. The repository follows the
   tam-idol 0.2.0 standard (W1). The repository and remote were renamed
   from tam-mail to tam-clif on 2026-11-25 (W2); docs use the new name
-  and config paths.
+  and config paths. keys/ holds the first-draft keybindings spec (W4).
 
 
 NEXT
