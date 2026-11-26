@@ -1,6 +1,6 @@
 # `aerc` Architecture & `tam-clif` Adaptation Notes
 
-`tam-clif` is currently in pre-`v0.1.0` planning (`ROADMAP.md`), with no C source files yet, and no `aerc` Go source tree is present locally. This document summarizes the architectural mechanisms and algorithms described in `ideas/aerc.md` alongside `tam-clif`'s planned C11/`libtam` design in `ROADMAP.md`.
+`tam-clif` is currently in pre-`v0.1.0` planning (`ROADMAP.md`), with no C source files yet, and no `aerc` Go source tree is present locally. This document summarizes the architectural mechanisms and algorithms described in `ideas/aerc.md` alongside `tam-clif`'s planned C17/`libtam` design in `ROADMAP.md`.
 
 ---
 

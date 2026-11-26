@@ -4,7 +4,7 @@ This file lists every piece of code tam-clif takes from another project.
 An idea taken without its code goes in `ideas/`, not here.
 
 Nothing taken yet. tam-clif takes ideas from aerc (`ideas/aerc.md`), not
-its code: aerc is written in Go and tam-clif in C11.
+its code: aerc is written in Go and tam-clif in C17.
 
 ## How to record a piece
 

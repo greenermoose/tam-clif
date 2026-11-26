@@ -1,7 +1,7 @@
 # tam-clif Roadmap
 
 This document outlines the architectural plan and phased roadmap for `tam-clif`:
-a pure-C11, terminal e-mail client built on [`libtam`](https://github.com/greenermoose/libtam)
+a pure-C17, terminal e-mail client built on [`libtam`](https://github.com/greenermoose/libtam)
 and designed to run natively on any Tamlinux system—including bare Linux virtual
 consoles (`TERM=linux`).
 
@@ -11,7 +11,7 @@ consoles (`TERM=linux`).
 
 ## Architectural Principles
 
-1. **Pure C11 & `libtam` Only:**
+1. **Pure C17 & `libtam` Only:**
    - Static link against `libtam.a` (`tam_str`, `tam_fs`, `tam_fs_tree`,
      `tam_path`, `tam_exec`, `tam_ini`, `tam_tty`, `tam_key`, `tam_uni`).
    - Zero external library dependencies beyond POSIX libc.
@@ -51,7 +51,7 @@ consoles (`TERM=linux`).
 **Goal:** Establish the build system, sanitizer test suite, INI config loading,
 and flicker-free terminal layout engine.
 
-- `Makefile` with strict C11 flags (`-std=c11 -Wall -Wextra -Werror`) and
+- `Makefile` with strict C17 flags (`-std=c17 -Wall -Wextra -Werror`) and
   `make test` under ASan/UBSan.
 - Config loader using `tam_ini` and `tam_xdg_path` (`tam-clif.ini`,
   `accounts.ini`, `binds.ini`).

@@ -88,7 +88,7 @@
   `mbox` archives (Phase 6) or send-disabled accounts.
 
 ### 8. Built-in Calendar, Desktop Bar Widget & AI Draft Assistant — `reject`
-- Out of scope for `tam-clif`. A pure C11 terminal MUA with `TERM=linux`
+- Out of scope for `tam-clif`. A pure C17 terminal MUA with `TERM=linux`
   parity should stay focused on reading, searching, composing, and patch
   workflows; calendar, bar widgets, and AI belongs in separate tools.
 

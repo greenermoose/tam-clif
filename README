@@ -1,6 +1,6 @@
 TAM-CLIF -- TERMINAL E-MAIL CLIENT
 
-tam-clif is a terminal e-mail client (MUA) written in C11, depending only
+tam-clif is a terminal e-mail client (MUA) written in C17, depending only
 on the standard C libraries (POSIX libc) and libtam
 (https://github.com/greenermoose/libtam). Inspired by aerc
 (https://git.sr.ht/~rjarry/aerc), tam-clif brings asynchronous,
@@ -18,7 +18,7 @@ Follows the tam-idol 0.2.0 standard
 
 DESIGN PHILOSOPHY
 
-- Zero Bloat, Pure C11 + libtam:
+- Zero Bloat, Pure C17 + libtam:
   Links statically against libtam.a (tam_str, tam_fs, tam_path, tam_exec,
   tam_ini, tam_tty, tam_key, tam_uni). No Go runtime, no Python, no
   ncurses, no GLib, and no OpenSSL build dependency in the core binary.
@@ -81,7 +81,7 @@ Configuration and state follow XDG conventions via tam_xdg_path:
 
 BUILD PREREQUISITES (PLANNED)
 
-- C11 compiler (gcc or clang)
+- C17 compiler (gcc or clang)
 - POSIX libc (glibc or musl) and GNU Make
 - libtam (libtam.a)
 

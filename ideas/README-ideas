@@ -52,7 +52,7 @@ HOW DEEP THESE NOTES GO
 IN THIS REPOSITORY
 
   The projects are mail clients and mail tools. Each idea is judged
-  against the Tamlinux philosophy: pure C11, minimal dependencies,
+  against the Tamlinux philosophy: pure C17, minimal dependencies,
   libtam-only linkage, and first-class Linux virtual console support.
 
     aerc.md   aerc, the terminal mail client tam-clif starts from

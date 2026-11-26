@@ -29,10 +29,10 @@ KEEPING IT TRUE
 
 IN THIS REPOSITORY
 
-  aerc.md   how aerc works (see ideas/aerc.md), and the C11 and libtam
+  aerc.md   how aerc works (see ideas/aerc.md), and the C17 and libtam
             data structures and algorithms tam-clif plans in its place
 
-  Everything here follows the Tamlinux philosophy: pure C11, minimal
+  Everything here follows the Tamlinux philosophy: pure C17, minimal
   dependencies, libtam-only linkage, and first-class Linux virtual
   console support. principles.md, data-structures.md and
   dependencies.md come with the first code (P1).
