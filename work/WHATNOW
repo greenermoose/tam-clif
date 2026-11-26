@@ -3,17 +3,18 @@ WHATNOW
 What tam-clif is doing now and what comes next. Read this first; revise
 it at the end of every session (work/README-work).
 
-Updated: 2026-11-25, with W2
+Updated: 2026-11-25, with W3
 
 
 STATE
 
   Version 0.0.0 on branch dev: planning only, no code. README and
   ROADMAP.md describe a pure C11 terminal mail client on libtam,
-  inspired by aerc; ideas/aerc.md and arch/aerc.md hold what was
-  learned from aerc. The repository follows the tam-idol 0.2.0 standard
-  (W1). The repository and remote were renamed from tam-mail to
-  tam-clif on 2026-11-25 (W2); docs use the new name and config paths.
+  inspired by aerc; ideas/aerc.md, ideas/omamail.md and arch/aerc.md
+  hold what was learned from aerc and omamail. The repository follows the
+  tam-idol 0.2.0 standard (W1). The repository and remote were renamed
+  from tam-mail to tam-clif on 2026-11-25 (W2); docs use the new name
+  and config paths.
 
 
 NEXT

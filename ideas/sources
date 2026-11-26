@@ -3,3 +3,4 @@
 # depth: "full" for a normal clone, or a number for a shallow clone.
 # Lines starting with # are comments. Add a project by adding a line.
 aerc      https://git.sr.ht/~rjarry/aerc                      ~/Code/aerc      master  1
+omamail   https://github.com/huacnlee/omamail                 ~/Code/omamail   main    1
