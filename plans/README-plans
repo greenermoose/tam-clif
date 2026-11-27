@@ -42,6 +42,10 @@ KEEPING PLANS CURRENT
 
 IN THIS REPOSITORY
 
-  No plans written yet. ROADMAP.md has the phases; each becomes a plan
-  when its work starts, beginning with P1-foundation.md for Phase 0
-  (0.1.0).
+  P1-foundation.md            0.1.0: build, config, terminal compositor
+  P2-maildir-mvp.md           0.2.0: Maildir engine and message list MVP
+  P3-mime-and-filters.md      0.3.0: MIME viewer and filter pipeline
+  P4-threading-and-search.md  0.4.0: JWZ threading, search, bulk actions
+  P5-compose-and-send.md      0.5.0: composition, templates, sending
+  P6-async-and-commands.md    0.6.0: async workers, ex-commands, binds
+  P7-hardening.md             1.0.0: PGP, git patches, mbox, hardening
